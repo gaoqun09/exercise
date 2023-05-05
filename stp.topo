@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.2.00.510">
+    <devices>
+        <dev id="981143BC-5C59-4d6d-99C3-4DC3A56975F8" name="LSW2" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-A7-0B-A8" com_port="2001" bootmode="0" cx="387.000000" cy="172.000000" edit_left="414" edit_top="226">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="3297ADBF-2C8C-4a98-9300-CB934DEA053B" name="LSW1" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-BB-28-D0" com_port="2000" bootmode="0" cx="95.000000" cy="177.000000" edit_left="122" edit_top="231">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="0B05EB92-4BE1-4a55-AA50-1ACD21DFBEC3" name="LSW3" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-FE-59-C9" com_port="2002" bootmode="0" cx="1154.000000" cy="67.000000" edit_left="1181" edit_top="121">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="B4A80789-F15F-4513-974F-5C470D3FA960" name="LSW5" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-E0-5E-8A" com_port="2004" bootmode="0" cx="1293.000000" cy="243.000000" edit_left="1320" edit_top="297">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="D1D475E2-9635-4296-BA57-DD8D50EDFE31" name="LSW4" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-F0-11-AC" com_port="2003" bootmode="0" cx="1037.000000" cy="245.000000" edit_left="1064" edit_top="299">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="3297ADBF-2C8C-4a98-9300-CB934DEA053B" destDeviceID="981143BC-5C59-4d6d-99C3-4DC3A56975F8">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="1" srcBoundRect_X="165.177429" srcBoundRect_Y="203.260666" srcOffset_X="-7.000000" srcOffset_Y="-23.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="370.822571" tarBoundRect_Y="199.739334" tarOffset_X="-36.000000" tarOffset_Y="-30.000000" />
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="177.177429" srcBoundRect_Y="215.260666" srcOffset_X="-17.000000" srcOffset_Y="13.000000" tarIndex="1" tarBoundRectIsMoved="1" tarBoundRect_X="382.822571" tarBoundRect_Y="211.739334" tarOffset_X="-56.000000" tarOffset_Y="20.000000" />
+        </line>
+        <line srcDeviceID="0B05EB92-4BE1-4a55-AA50-1ACD21DFBEC3" destDeviceID="D1D475E2-9635-4296-BA57-DD8D50EDFE31">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="1" srcBoundRect_X="1157.280396" srcBoundRect_Y="130.086258" srcOffset_X="-88.000000" srcOffset_Y="-22.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="1087.719604" tarBoundRect_Y="235.913742" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="D1D475E2-9635-4296-BA57-DD8D50EDFE31" destDeviceID="B4A80789-F15F-4513-974F-5C470D3FA960">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="1107.182495" srcBoundRect_Y="271.662628" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="1276.817505" tarBoundRect_Y="270.337372" tarOffset_X="-34.000000" tarOffset_Y="10.000000" />
+        </line>
+        <line srcDeviceID="0B05EB92-4BE1-4a55-AA50-1ACD21DFBEC3" destDeviceID="B4A80789-F15F-4513-974F-5C470D3FA960">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="1207.764771" srcBoundRect_Y="127.889267" srcOffset_X="24.000000" srcOffset_Y="-4.000000" tarIndex="1" tarBoundRectIsMoved="0" tarBoundRect_X="1293.235229" tarBoundRect_Y="236.110733" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+    </lines>
+    <shapes>
+        <shape type="0" filloption="1" color="255" upleftcorner="0,0" width="0" height="0" startpt="176,209" endpt="163,229" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="1" color="255" upleftcorner="0,0" width="0" height="0" startpt="165,210" endpt="179,227" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="0" color="255" upleftcorner="0,0" width="0" height="0" startpt="1135,140" endpt="1211,165" borderStyle="0" borderWidth="1" />
+        <shape type="0" filloption="0" color="255" upleftcorner="0,0" width="0" height="0" startpt="1154,119" endpt="1153,163" borderStyle="0" borderWidth="1" />
+    </shapes>
+    <txttips>
+        <txttip left="151" top="347" right="363" bottom="374" content="[SW1]stp mode stp" fontname="Consolas" fontstyle="0" editsize="160" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="152" top="298" right="388" bottom="350" content="[SW1]disp stp &#x0D;&#x0A;[SW2]disp stp brief " fontname="Consolas" fontstyle="0" editsize="160" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="-105" top="382" right="687" bottom="959" content="SW1:CIST Bridge         :32768.4c1f-ccbb-28d0&#x0D;&#x0A;SW2:CIST Bridge         :32768.4c1f-cca7-0ba8 //根桥&#x0D;&#x0A;&#x0D;&#x0A;SW2:&#x0D;&#x0A;CIST Bridge         :32768.4c1f-cca7-0ba8&#x0D;&#x0A;CIST Root/ERPC      :32768.4c1f-cca7-0ba8 / 0&#x0D;&#x0A;&#x0D;&#x0A;SW1:&#x0D;&#x0A;CIST Bridge         :32768.4c1f-ccbb-28d0&#x0D;&#x0A;CIST Root/ERPC      :32768.4c1f-cca7-0ba8 / 200000&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;SW2:&#x0D;&#x0A;MSTID  Port                        Role  STP State     Protection&#x0D;&#x0A;   0    Ethernet0/0/1               DESI  FORWARDING      NONE&#x0D;&#x0A;   0    Ethernet0/0/2               DESI  FORWARDING      NONE&#x0D;&#x0A;&#x0D;&#x0A;SW1:&#x0D;&#x0A;MSTID  Port                        Role  STP State     Protection&#x0D;&#x0A;   0    Ethernet0/0/1               ROOT  FORWARDING      NONE&#x0D;&#x0A;   0    Ethernet0/0/2               ALTE  DISCARDING      NONE&#x0D;&#x0A;&#x0D;&#x0A;" fontname="Consolas" fontstyle="0" editsize="160" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="442" top="164" right="473" bottom="191" content="RB" fontname="Consolas" fontstyle="0" editsize="160" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="241" top="169" right="320" bottom="196" content="200000" fontname="Consolas" fontstyle="0" editsize="160" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="366" top="185" right="397" bottom="212" content="DP" fontname="Consolas" fontstyle="0" editsize="160" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="362" top="215" right="393" bottom="242" content="DP" fontname="Consolas" fontstyle="0" editsize="160" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="138" top="165" right="169" bottom="192" content="RP" fontname="Consolas" fontstyle="0" editsize="160" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="151" top="234" right="182" bottom="261" content="AP" fontname="Consolas" fontstyle="0" editsize="160" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="721" top="322" right="1537" bottom="1273" content="disp stp &#x0D;&#x0A;&#x0D;&#x0A;LSW3:&#x0D;&#x0A;CIST Bridge         :32768.4c1f-ccfe-59c9&#x0D;&#x0A;CIST Root/ERPC      :32768.4c1f-cce0-5e8a / 200000&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;LSW4:&#x0D;&#x0A;CIST Bridge         :32768.4c1f-ccf0-11ac&#x0D;&#x0A;CIST Root/ERPC      :32768.4c1f-cce0-5e8a / 200000&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;LSW5:&#x0D;&#x0A;CIST Bridge         :32768.4c1f-cce0-5e8a&#x0D;&#x0A;CIST Root/ERPC      :32768.4c1f-cce0-5e8a / 0&#x0D;&#x0A;&#x0D;&#x0A;根桥：lsw5 CIST Bridge         :32768.4c1f-cce0-5e8a&#x0D;&#x0A;&#x0D;&#x0A;disp stp brief&#x0D;&#x0A;LSW3:&#x0D;&#x0A; MSTID  Port                        Role  STP State     Protection&#x0D;&#x0A;   0    Ethernet0/0/1               ALTE  DISCARDING      NONE&#x0D;&#x0A;   0    Ethernet0/0/2               ROOT  FORWARDING      NONE&#x0D;&#x0A;&#x0D;&#x0A;LSW4:&#x0D;&#x0A; MSTID  Port                        Role  STP State     Protection&#x0D;&#x0A;   0    Ethernet0/0/1               DESI  FORWARDING      NONE&#x0D;&#x0A;   0    Ethernet0/0/2               ROOT  FORWARDING      NONE&#x0D;&#x0A;&#x0D;&#x0A;LSW5:&#x0D;&#x0A; MSTID  Port                        Role  STP State     Protection&#x0D;&#x0A;   0    Ethernet0/0/1               DESI  FORWARDING      NONE&#x0D;&#x0A;   0    Ethernet0/0/2               DESI  FORWARDING      NONE&#x0D;&#x0A;&#x0D;&#x0A;指定端口:Ethernet0/0/1,Ethernet0/0/2(lsw5)&#x0D;&#x0A;根端口：Ethernet0/0/2(lsw4),Ethernet0/0/2(lsw3)&#x0D;&#x0A;替代端口：Ethernet0/0/1(lsw3)" fontname="Consolas" fontstyle="0" editsize="160" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>
